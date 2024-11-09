@@ -75,7 +75,7 @@ class _SignUpPageState extends State<SignUpPage> {
               ),
               const SizedBox(height: 5),
               TextField(
-                controller: nameController,
+                controller: emailController,
                 decoration: InputDecoration(
                   hintText: "Enter Email",
                   border: OutlineInputBorder(
@@ -93,7 +93,8 @@ class _SignUpPageState extends State<SignUpPage> {
               ),
               const SizedBox(height: 5),
               TextField(
-                controller: nameController,
+                controller: passwordController,
+                obscureText: true,
                 decoration: InputDecoration(
                   hintText: "Enter Password",
                   border: OutlineInputBorder(
@@ -111,7 +112,8 @@ class _SignUpPageState extends State<SignUpPage> {
               ),
               const SizedBox(height: 5),
               TextField(
-                controller: nameController,
+                controller: confirmPasswordController,
+                obscureText: true,
                 decoration: InputDecoration(
                   hintText: "Retype Password",
                   border: OutlineInputBorder(

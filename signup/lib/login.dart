@@ -151,13 +151,11 @@ class _LoginPageState extends State<LoginPage> {
                 const SizedBox(width: 10),
                 TextButton(
                   onPressed: () {
-                    if (mounted) {
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (context) => const SignUpPage(),
                         ),
                       );
-                    }
                   },
                   child: Text(
                     "Sign up",
@@ -244,7 +242,7 @@ class _LoginPageState extends State<LoginPage> {
                           body: signInPage(),
                         ),
                       ), 
-                      (route) => false,
+                      (route) => true,
                     );
                   },
                   child: Container(
@@ -268,7 +266,10 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                         ),
                         SizedBox(width: 20),
-                        Icon(Icons.arrow_forward),
+                        Icon(
+                          Icons.arrow_forward,
+                          color: Colors.black,
+                        ),
                       ],
                     ),
                   ),
