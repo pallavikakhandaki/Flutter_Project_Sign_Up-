@@ -51,6 +51,7 @@ class _LoginPageState extends State<LoginPage> {
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(15),
                 ),
+                contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
               ),
             ),
             const SizedBox(height: 50),
@@ -70,6 +71,7 @@ class _LoginPageState extends State<LoginPage> {
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(15),
                 ),
+                contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
               ),
             ),
             const SizedBox(height: 20),
@@ -96,7 +98,7 @@ class _LoginPageState extends State<LoginPage> {
                       child: Text(
                         "Start Cooking",
                         style: TextStyle(
-                          fontSize: 23,
+                          fontSize: 20,
                           color: Colors.white,
                           fontWeight: FontWeight.w500
                         ),

@@ -63,6 +63,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(15),
                   ),
+                  contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 ),
               ),
               const SizedBox(height: 15,),
@@ -81,6 +82,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(15),
                   ),
+                  contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 ),
               ),
               const SizedBox(height: 15,),
@@ -100,6 +102,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(15),
                   ),
+                  contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 ),
               ),
               const SizedBox(height: 15,),
@@ -119,6 +122,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(15),
                   ),
+                  contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 ),
               ),
               const SizedBox(height: 15),
@@ -159,7 +163,7 @@ class _SignUpPageState extends State<SignUpPage> {
                         child: Text(
                           "Sign Up",
                           style: TextStyle(
-                            fontSize: 23,
+                            fontSize: 20,
                             color: Colors.white,
                             fontWeight: FontWeight.w500
                           ),
